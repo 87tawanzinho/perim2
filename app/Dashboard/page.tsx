@@ -11,7 +11,7 @@ function page() {
           <h2 className="text-3xl font-bold mt-10 text-slate-800 pt-10 ">
             Bom dia, Oscimar!
           </h2>
-          <p>Sexta feira, 28 de novembro</p>
+          <p>Sexta feira, 28 de novembro.</p>
           <img
             src="/images/home-photo.jpg"
             alt=""
