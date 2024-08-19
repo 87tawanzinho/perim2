@@ -22,7 +22,7 @@ function Navbar() {
         </div>
       </div>
 
-      <div className="flex justify-between items-center fixed  w-full  lg:hidden border p-2">
+      <div className="flex justify-between items-center fixed  w-full  lg:hidden border p-2 bg-white">
         <Logo
           classNameMainDiv="flex items-center "
           classNameImg="h-10 w-10"
@@ -31,7 +31,7 @@ function Navbar() {
           classNameH1="text-md ml-4"
         />
 
-        <div>menu</div>
+        <div>Later</div>
       </div>
     </>
   );

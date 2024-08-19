@@ -1,5 +1,9 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
+import CurrentDate from "../utils/DateUtils";
+import Link from "next/link";
+import ButtonManage from "../management/ButtonManage";
 
 function page() {
   return (
@@ -11,7 +15,7 @@ function page() {
           <h2 className="text-3xl font-bold mt-10 text-slate-800 pt-10 ">
             Bom dia, Oscimar!
           </h2>
-          <p>Sexta feira, 28 de novembro.</p>
+          <CurrentDate />
           <img
             src="/images/home-photo.jpg"
             alt=""
@@ -24,13 +28,7 @@ function page() {
           <p>Faça o controle de datas e mercadorias</p>
 
           <div className="mt-10 flex items-center gap-2">
-            <button className="button bg-emerald-800 text-white text-sm">
-              Gerenciar Funcionarios
-            </button>
-
-            <button className="button bg-red-800 text-white text-sm ">
-              Vencimento de Produtos
-            </button>
+            <ButtonManage />
           </div>
         </div>
       </div>

@@ -33,3 +33,18 @@ input {
   letter-spacing: 2px;
   transition: 0.2s ease-in-out;
 }
+
+.buttonWithoutP {
+  transition: 0.1s ease-in-out;
+
+  letter-spacing: 1px;
+}
+
+.buttonWithoutP:hover {
+  cursor: pointer;
+  background: rgb(34, 17, 34);
+  color: white;
+  opacity: 0.8;
+
+  transition: 0.2s ease-in-out;
+}
